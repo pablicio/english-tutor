@@ -1,3 +1,20 @@
-streamlit
-transformers
-torch
+# Core
+streamlit>=1.38.0
+transformers>=4.44.0
+torch>=2.4.0
+sentencepiece
+accelerate
+
+# Audio (TTS + STT)
+gTTS>=2.5.1
+soundfile>=0.12.1
+faster-whisper>=1.0.1
+
+# WebRTC para microfone
+streamlit-webrtc>=0.47.7
+av>=11.0.0
+numpy>=1.26.0
+
+# Utilidades
+tqdm
+regex
